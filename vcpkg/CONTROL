@@ -1,4 +1,0 @@
-Source: ros-dashing-qt-gui-core
-Version: 1.0.6
-Description: Integration of the ROS package system and ROS-specific plugins for a Qt-based GUI.
-Build-Depends:
