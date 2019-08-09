@@ -1,17 +1,15 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>ros-dashing-qt-gui-py-common</id>
-    <version>1.0.6</version>
-    <title>ros-dashing-qt-gui-py-common</title>
-    <authors>Dorian Scholz</authors>
+    <id>@(Package)</id>
+    <version>@(Version)</version>
+    <title>@(Package)</title>
+    <authors>@(Authors)</authors>
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>qt_gui_py_common provides common functionality for GUI plugins written in Python.</description>
+    <description>@(Description)</description>
     <dependencies>
-		<dependency id="ros-dashing-ament-index-python"/>
-		<dependency id="ros-dashing-python-qt-binding"/>
-
+@[for d in Depends]@(d)@[end for]
     </dependencies>
   </metadata>
   <files>
