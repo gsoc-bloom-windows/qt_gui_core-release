@@ -1,4 +1,0 @@
-Source: ros-dashing-qt-dotgraph
-Version: 1.0.6
-Description: qt_dotgraph provides helpers to work with dot graphs.
-Build-Depends:
